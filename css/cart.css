@@ -79,39 +79,6 @@ header{
     cursor: pointer;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*-----cart----*/
 
 .cart{
@@ -145,7 +112,7 @@ tr:last-child{
 }
 td{
     padding: 15px 10px;
-    color: #07393E;
+    color: #000000;
 
 }
 td input{
@@ -195,7 +162,7 @@ th:last-child{
 
 }
 .total-price a:hover{
-    background-color: #1e6f76;
+    background-color: #0d0a0a;
 
 }
  @media (max-width:430px){
