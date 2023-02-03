@@ -2,7 +2,7 @@
 :root{
     --color1:white;
     --primaryColor:black;
-    --secondaryColor:rgb(227, 119, 153);
+    --secondaryColor:rgb(181, 10, 10);
    }
 
 
@@ -15,78 +15,38 @@
      list-style: none;
     font-family: 'Courgette', cursive;
 }
-header{
-    position: fixed;
-    width: 100%;
-    top: 0;
-    right: 0;
-    z-index: 1000;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px 10%;
-}
+
+
 .logo img{
-    max-width: 120px;
+    max-width: 140px;
     height: auto;
+    position: relative;
+    top: 1cm;
+    left: 1cm;
 }
-.navmenu{
-    display: flex;
-}
-.navmenu a{
-    color: #000000;
-    font-size: 18px;
-    text-transform: capitalize;
-    padding: 10px 20px;
-    font-weight: 400;
-    transition: all .42s ease;
-}
-.navmenu a:hover{
-    color: #e2778c;
-}
-.nav-icon{
-    display: flex;
-    align-items: center;
-}
-.nav-icon i{
-    margin-right: 20px;
-    color: #000000;
-    font-size: 25px;
-    font-weight: 400;
-    transition: all .42s ease;
-}
-.nav-icon i:hover{
-    transform: scale(1.1);
-    color: #e95e7a;
-}
-#menu-icon{
-    font-size: 35px;
-    color: #000000;
-    z-index: 10001;
-    cursor: pointer;
-}
+
 /*form*/
 body{
     
-    background-image: url(../img/backgroundlogin&singin.jpg);
+    background-image: url(../img/bglosi.jpg);
     background-size: cover;
   
  }
 
- .section2Results{
+.section2Results{
     display: flex;
     justify-content: center;
     height: 100vh;
 }
 
-.result1{
-margin: 2% 0 5% 0;
-background: rgba(0, 0, 0, 0.641);
-width: 35%;
-height: 70%;
-border-radius: 10px;
-position: relative;
-top: 8rem;
+ .result1{
+ margin: 2% 0 5% 0;
+ background: rgba(0, 0, 0, 0.641);
+ width: 35%;
+ height: 70%;
+ border-radius: 10px;
+ position: relative;
+ top: 5rem;
 }
 
 .resultsCenter{
@@ -96,9 +56,9 @@ top: 8rem;
 }
  
  .wel {
-     top: 6cm;
+     top: 6.5cm;
      left: 50%;
-      position: relative; 
+     position: relative; 
      transform: translate(-50%, -50%);
      height: 550px;
      width: 400px;
@@ -138,7 +98,7 @@ top: 8rem;
      height: 40px;
      margin: 0 auto;
       margin: 10px; 
-     margin-bottom:20px;
+    
  }
  .txt:focus{
      outline: none;
